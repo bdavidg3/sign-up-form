@@ -10,6 +10,7 @@
 
 main{
     display: flex;
+    font-family: "Roboto", sans-serif;
 }
 
 /*LOGO CONTAINER*/
@@ -49,11 +50,86 @@ main{
 .form-container{
     display: flex;
     flex-direction: column;
+    height: 100vh;
     width:75vw;
-    padding:20px;
+    background-color: #eee;
 }
 
 .form-content{
     display:flex;
     flex-direction: column;
+    padding-top:20px;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0px 5px 4px #ccc;
+}
+
+.first-text{
+    padding-top: 15vh;
+}
+
+.form-container p, label{
+    padding-left: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:300px;
+}
+
+.form-content p{
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color:#444;
+    margin:0 100px 20px 0;
+    
+}
+
+
+
+input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    padding:1px;
+}
+
+input:focus{
+    background:#667694;
+    border: none;
+}
+
+button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border:none;
+    background-color: #223355;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.log-in{
+    font-size:14px;
+}
+
+.log-in a{
+    text-decoration: none;
+    color: #223355;
+    font-weight: bold;
 }
